@@ -1,0 +1,2 @@
+2044-08-09T02:12:51.253Z - info - {"transactionId":"123","details":"Service is started"}
+2021-08-09T02:12:51.259Z - error - {"transactionId":"456","details":"Cannot find user orders list","code": 404,"err":"Not found"}
