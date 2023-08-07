@@ -4,8 +4,8 @@
   "description": "A log processing application",
   "main": "parser.ts",
   "scripts": {
-    "start": "node dist/parser.js --input=./app.log  --output=./errors.json",
-    "build": "tsc",
+    "start": "node parser.js --input=./app.log  --output=./errors.json",
+    "build": "tsc && tsc parser.ts",
     "test": "jest"
   },
   "keywords": [

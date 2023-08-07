@@ -1,5 +1,5 @@
 import { program } from "commander";
-import { parseLog } from "./App";
+import { parseLog } from "./src/App";
 
 program
   .version("0.0.1")
